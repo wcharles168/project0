@@ -1,19 +1,31 @@
-nav .navlink {
+#nav-bar {
     color: white;
     background-color: #3B5998;
-    padding: 10px;
     border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+h1 {
     text-align: center;
+    color: blue;
+    font: sans-serif;
+}
+
+p {
     display: flex;
 }
 
-/*for gallery use*/
-div .row {
-    width: 100%;
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
-li, p {
-    display: flex;
+.listimage {
+    list-style-type: none;
 }
 
 @media (max-width: 600px) {
