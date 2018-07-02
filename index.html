@@ -10,13 +10,28 @@
         <title>CORGI WEBSITE</title>
     </head>
     <body>
-         <nav>
+        <div class="dropdown-menu">
+            <button type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-menu-hamburger"></span>
+            </button>
+        </div>
+        <nav>
             <ul id="nav-bar">
                 <li><a class="nav-link" href="funfact.html">Fun Facts!</a></li>
                 <li><a class="nav-link" href="info.html">Basic Info</a></li>
                 <li><a class="nav-link" href="gallery.html">Gallery</a></li>
             </ul>
         </nav>
+        <div class="dropdown">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+          </div>
+        </div>
         <div>
             <h1>Welcome to all things corgi!</h1>
             <img id="indeximg" src="corgi4.jpg"/>
