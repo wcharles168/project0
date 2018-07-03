@@ -1,0 +1,45 @@
+$font-stack: verdana sans-serif, sans-serif;
+$primary-color: #42adf4;
+
+#nav-bar {
+    background-color: $primary-color;
+    border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+body {
+    font: $font-stack;
+    color: $primary-color;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    display: flex;
+}
+
+table {
+    tr {
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: #f49842;
+    }
+}
+@media (min-width: 601px) {
+    body {
+        background-color: #f4dc41;
+    }
+}

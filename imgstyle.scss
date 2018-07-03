@@ -1,0 +1,21 @@
+
+#indeximg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#tableimg, #funfactimg {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.col-md-4 > img {
+    @extend #indeximg;
+    position: relative;
+    float: left;
+    border-radius: 15px;
+}
+

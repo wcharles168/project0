@@ -1,20 +1,20 @@
-div .col-md-3 > img {
-    position: relative;
-    float: left;
-    width: 40%;
-    margin-left: 15px;
-    border-radius: 15px;
-}
-
-#indeximg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+#indeximg, .col-md-4 > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #tableimg, #funfactimg {
-    position: relative;
-    width: 100px;
-    height: 100px;
+  position: relative;
+  width: 100px;
+  height: 100px;
 }
+
+.col-md-4 > img {
+  position: relative;
+  float: left;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=imgstyle.css.map */
